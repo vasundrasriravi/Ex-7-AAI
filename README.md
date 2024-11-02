@@ -37,7 +37,7 @@ def preprocess_text(text):
 
 	# Stemming
 	stemmer = PorterStemmer()
- stemmed_words= [stemmer. stem(word) for word in filtered_words]
+        stemmed_words= [stemmer. stem(word) for word in filtered_words]
 	return stemmed_words
 
 def generate_summary(text,num_sentences=3):
